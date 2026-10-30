@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodLoop - Kurangi Food Waste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍃 FoodLoop</h1>
+        <p>Selamatkan makanan, kurangi limbah!</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Makanan baik, harga hemat!</h2>
+            <p>Temukan makanan surplus yang masih layak dijual dengan harga lebih terjangkau.</p>
+        </section>
+
+        <section class="menu">
+            <h2>🍱 Makanan Tersedia</h2>
+
+            <div class="food-card">
+                <h3>Nasi Ayam</h3>
+                <p>Harga awal: <del>Rp20.000</del></p>
+                <p class="price">Harga diskon: Rp12.000</p>
+                <p>Stok: 5 porsi</p>
+                <button onclick="orderFood('Nasi Ayam')">
+                    Pesan Sekarang
+                </button>
+            </div>
+
+            <div class="food-card">
+                <h3>Roti Cokelat</h3>
+                <p>Harga awal: <del>Rp10.000</del></p>
+                <p class="price">Harga diskon: Rp6.000</p>
+                <p>Stok: 3 buah</p>
+                <button onclick="orderFood('Roti Cokelat')">
+                    Pesan Sekarang
+                </button>
+            </div>
+        </section>
+
+        <p id="message"></p>
+    </main>
+
+    <footer>
+        <p>© 2026 FoodLoop | Bersama Mengurangi Food Waste</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
