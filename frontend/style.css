@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f8f2;
+    color: #263528;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.hero {
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.menu {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+.food-card {
+    background: white;
+    border-radius: 12px;
+    padding: 18px;
+    margin: 15px 0;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+.price {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e0ebdc;
+}
